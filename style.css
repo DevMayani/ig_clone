@@ -1,0 +1,72 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.Main-container{
+  height: 300vh;
+  display:flex;
+  justify-content:center;
+  align-items: flex-start;
+}
+
+.First-cont{
+  /* background-color: rgb(149, 100, 100); */
+  height: 100vh;
+  width:20%;
+  border: 1px solid rgb(179, 176, 176);
+}
+.Second-cont{
+  height: 300vh;
+  width:80%;
+}
+
+.stories{
+  border: 1px solid rgb(179, 176, 176);
+  width: 100%;
+  height: 20vh;
+  background-color: white;
+  border-radius:10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  padding:10px 20px;
+}
+.postone ,.psttwo ,.postthree ,.postfour{
+  border: 1px solid rgb(179, 176, 176);
+  width: 100%;
+  height: 50vh;
+  background-color: white;
+  border-radius:10px;
+  margin-top: 20px;
+}
+.main-one{
+  height: 100vh;
+  width:80%;
+  margin: auto;
+  display:flex;
+  justify-content:center;
+  align-items: flex-start;
+  gap: 20px;
+  margin-top: 20px;
+}
+.one{
+  width:50%;
+  height: 300vh;
+}
+.two{
+  background-color: palevioletred;
+  width:50%;
+  height: 100vh;
+}
+.storyone ,.storytwo, .storythree ,.storyfour ,.storyfive, .storysix{
+  text-align: center;
+ 
+}
+.jaddyimg{
+  width:50px;
+  height: 50px;
+  border-radius: 50px;
+  border: 2px double gold;
+}

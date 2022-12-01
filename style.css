@@ -15,7 +15,7 @@ body{
 
 .First-cont{
   /* background-color: rgb(149, 100, 100); */
-  height: 100vh;
+  height: 105vh;
   width:20%;
   border: 1px solid rgb(179, 176, 176);
 }
@@ -34,12 +34,12 @@ body{
   justify-content: flex-start;
   align-items: center;
   gap: 10px;
-  padding:10px 20px;
+  padding:10px 10px;
 }
 .postone ,.psttwo ,.postthree ,.postfour{
   border: 1px solid rgb(179, 176, 176);
   width: 100%;
-  height: 120vh;
+  height: 133vh;
   background-color: white;
   border-radius:10px;
   margin-top: 20px;
@@ -59,9 +59,9 @@ body{
   height: 300vh;
 }
 .two{
-  background-color: palevioletred;
   width:50%;
   height: 100vh;
+  padding: 40px 20px;
 }
 .storyone ,.storytwo, .storythree ,.storyfour ,.storyfive, .storysix{
   text-align: center;
@@ -98,6 +98,9 @@ body{
   width:100%;
   /* height: 40vh; */
 }
+.instaimg{
+  width:100%;
+}
 .footer{
   height: 60px;
   display: flex;
@@ -111,4 +114,151 @@ body{
 }
 .loveimgs{
   width:5%;
+}
+.sub-footer{
+  padding: 10px 10px;
+  height: 15vh;
+}
+.jo{
+  margin-top:10px;
+  font-size: small;
+}
+.faint{
+  margin-top:10px;
+  font-weight:lighter
+}
+.last-footer{
+  border: 1px solid rgb(179, 176, 176);
+  display: flex;
+  justify-content:space-between;
+  align-items:center;
+  padding: 5px 10px;
+  height: 10vh;
+  
+  border-radius:0 0 10px 10px;
+}
+.smileyimg{
+  width:5%;
+}
+.comm{
+  margin-right: 180px;
+  font-weight: lighter;
+}
+.blue{
+  color: blue;
+}
+.insta-logo{
+  width:50%;
+ 
+}
+.First-cont{
+  padding: 40px 30px;
+}
+.home{
+  display: flex;
+  justify-content:space-between;
+  align-items:center;
+  /* width: 40%; */
+}
+.homeimg{
+  width:10%;
+}
+.hme{
+  margin-right: 100px;
+}
+.hmes{
+  margin-right: 95px;
+}
+.hmess{
+  margin-right: 90px;
+}
+.hmessone{
+  margin-right: 80px;
+}
+.hmessones{
+  margin-right: 60px;
+}
+.create{
+  margin-right: 100px;
+}
+.more{
+  margin-right: 110px;
+}
+
+
+.homes{
+  display: flex;
+  justify-content:space-between;
+  align-items:center;
+  /* width: 80%; */
+  margin-top: 40px;
+}
+.two-one{
+  display: flex;
+  justify-content:space-between;
+  align-items:center;
+  /* padding: 10px 20px; */
+  width: 80%;
+}
+.twoone{
+margin-right: 50px;
+}
+.homeimgi{
+  width:15%;
+  border-radius: 50px;
+}
+.homeimgin{
+  width:15%;
+  border-radius: 50px;
+}
+.faints{
+  margin-top:5px;
+  font-weight:lighter;
+  color:grey;
+}
+.joj{
+  color:grey;
+}
+.two-two{
+  display: flex;
+  justify-content:space-between;
+  align-items:center;
+  width: 80%;
+  margin-top: 20px;
+}
+.see{
+  font-weight: lighter;
+}
+.two-three ,.two-four,.two-five,.two-six,.two-seven{
+  display: flex;
+  justify-content:space-between;
+  align-items:center;
+  width: 80%;
+  margin-top: 10px;
+}
+.two-seven{
+  margin-top: 50px;
+}
+ul{
+  display: flex;
+  justify-content:space-between;
+  align-items:center;
+  font-size: x-small;
+  gap: 5px;
+  list-style: none;
+  color: grey;
+}
+a:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+.lang{
+  color: grey;
+  margin-top: 5px;
+  font-weight: lighter;
+}
+.meta{
+  color: grey;
+  margin-top: 30px;
+  font-weight: lighter;
 }
